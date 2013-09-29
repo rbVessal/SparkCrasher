@@ -1,0 +1,274 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using System.IO;
+
+namespace SparkCrasher
+{
+    class MapMaker
+    {
+        Rectangle[,] rectangles;
+        Button[,] buttons;
+        Texture2D image;
+        SpriteFont text;
+        KeyboardState kbState;
+        KeyboardState prevKBState;
+        int x;
+        int y;
+        int levelCount;
+        int levelSelected;
+
+        Rectangle nameBox;
+        string name;
+
+        enum MapState
+        {
+            Saving,
+            Loading,
+            Editing,
+        }
+        MapState mapState;
+
+        public MapMaker(Texture2D img, SpriteFont txt)
+        {
+            rectangles = new Rectangle[Constants.ARRAYX, Constants.ARRAYY];
+            buttons = new Button[Constants.ARRAYX,Constants.ARRAYY];
+            for (int i = 0; i < 16; i++)
+            {
+                for (int j = 0; j < 16; j++)
+                {
+                    rectangles[j, i] = new Rectangle((j * (Constants.TILE_WIDTH / 2)), (i * (Constants.TILE_HEIGHT / 2)),
+                        (Constants.TILE_WIDTH / 2), (Constants.TILE_HEIGHT / 2));
+                    buttons[j, i] = new Button();
+                    buttons[j, i].Thing = ".";
+                }
+            }
+            image = img;
+            text = txt;
+            x = 0;
+            y = 0;
+            levelCount = 1;
+            levelSelected = 1;
+            nameBox = new Rectangle(400, 400, 150, 50);
+            name = "";
+            mapState = MapState.Editing;
+        }
+
+        public void Update(KeyboardState kbs, KeyboardState pkbs)
+        {
+            kbState = kbs;
+            prevKBState = pkbs;
+            switch (mapState)
+            {
+                #region Editing
+                case MapState.Editing:
+                    if (SingleKeyPress(Keys.Enter))
+                    {
+                        switch (buttons[x, y].Thing)
+                        {
+                            case ".": buttons[x, y].Thing = "=";
+                                break;
+                            case "=": buttons[x, y].Thing = "+";
+                                break;
+                            case "+": buttons[x, y].Thing = "-";
+                                break;
+                            case "-": buttons[x, y].Thing = "S";
+                                break;
+                            case "S": buttons[x, y].Thing = "G";
+                                break;
+                            case "G": buttons[x, y].Thing = ".";
+                                break;
+                            default: break;
+                        }
+                    }
+                    if (SingleKeyPress(Keys.Up) && y > 0)
+                    {
+                        y--;
+                    }
+                    if (SingleKeyPress(Keys.Left) && x > 0)
+                    {
+                        x--;
+                    }
+                    if (SingleKeyPress(Keys.Down) && y < 15)
+                    {
+                        y++;
+                    }
+                    if (SingleKeyPress(Keys.Right) && x < 15)
+                    {
+                        x++;
+                    }
+                    if (SingleKeyPress(Keys.R))
+                    {
+                        this.ResetLevel();
+                    }
+                    if (SingleKeyPress(Keys.S))
+                    {
+                        CheckLevelCount();
+                        mapState = MapState.Saving;
+                    }
+                    if (SingleKeyPress(Keys.L))
+                    {
+                        CheckLevelCount();
+                        mapState = MapState.Loading;
+                    }
+                    break;
+                #endregion
+                #region Loading
+                case MapState.Loading:
+                    if (SingleKeyPress(Keys.Right) && levelSelected < (levelCount - 1))
+                    {
+                        levelSelected++;
+                    }
+                    if (SingleKeyPress(Keys.Left) && levelSelected > 1)
+                    {
+                        levelSelected--;
+                    }
+
+                    name = levelSelected + ".txt";
+
+                    if (SingleKeyPress(Keys.Enter))
+                    {
+                        LoadLevel();
+                        mapState = MapState.Editing;
+                    }
+                    break;
+                #endregion
+                #region Saving
+                case MapState.Saving:
+                    if (SingleKeyPress(Keys.Right) && levelSelected < levelCount)
+                    {
+                        levelSelected++;
+                    }
+                    if (SingleKeyPress(Keys.Left) && levelSelected > 1)
+                    {
+                        levelSelected--;
+                    }
+
+                    name = levelSelected + ".txt";
+
+                    if (SingleKeyPress(Keys.Enter))
+                    {
+                        SaveLevel();
+                        mapState = MapState.Editing;
+                    }
+                    break;
+                #endregion
+                default: break;
+            }
+        }
+
+        public void Draw(SpriteBatch spriteBatch)
+        {
+            for (int i = 0; i < 16; i++)
+            {
+                for (int j = 0; j < 16; j++)
+                {
+                    spriteBatch.Draw(image, rectangles[j, i], Color.White);
+                }
+            }
+            spriteBatch.Draw(image, new Rectangle((x * (Constants.TILE_WIDTH / 2)), (y * (Constants.TILE_HEIGHT / 2)),
+                (Constants.TILE_WIDTH / 2), (Constants.TILE_HEIGHT / 2)), Color.Blue);
+            for (int i = 0; i < 16; i++)
+            {
+                for (int j = 0; j < 16; j++)
+                {
+                    spriteBatch.DrawString(text, buttons[j, i].Thing, new Vector2(((j * (Constants.TILE_WIDTH / 2) + 5)),
+                        ((i * (Constants.TILE_HEIGHT / 2)))), Color.Black);
+                }
+            }
+
+            switch (mapState)
+            {
+                #region Editing
+                case MapState.Editing:
+                    spriteBatch.DrawString(text, "Use the arrow keys to move the cursor, S to save, L to load, and R to reset\n" +
+                    "Press [ENTER] to switch the tile type you have selected",
+                        new Vector2(0, ((Constants.SCREEN_HEIGHT / 2) + 10)), Color.White);
+                    break;
+                #endregion
+                #region Loading
+                case MapState.Loading:
+                    spriteBatch.DrawString(text, "Type the name of the file load from.\nPress [ENTER] to proceed.",
+                        new Vector2(0, ((Constants.SCREEN_HEIGHT / 2) + 10)), Color.White);
+                    spriteBatch.Draw(image, nameBox, Color.White);
+                    spriteBatch.DrawString(text, name,
+                        new Vector2(((Constants.SCREEN_WIDTH / 2) + 10), ((Constants.SCREEN_HEIGHT / 2)) + 10), Color.Black);
+                    break;
+                #endregion
+                #region Saving
+                case MapState.Saving:
+                    spriteBatch.DrawString(text, "Type the name of the file to save to.\nPress [ENTER] to proceed.",
+                        new Vector2(0, ((Constants.SCREEN_HEIGHT / 2) + 10)), Color.White);
+                    spriteBatch.Draw(image, nameBox, Color.White);
+                    spriteBatch.DrawString(text, name,
+                        new Vector2(((Constants.SCREEN_WIDTH / 2) + 10), ((Constants.SCREEN_HEIGHT / 2) + 10)), Color.Black);
+                    break;
+                #endregion
+                default: break;
+            }
+        }
+
+        public bool SingleKeyPress(Keys key)
+        {
+            if (prevKBState.IsKeyUp(key) && kbState.IsKeyDown(key))
+            {
+                prevKBState = kbState;
+                return true;
+            }
+            else { return false; }
+        }
+
+        public void SaveLevel()
+        {
+            StreamWriter write = new StreamWriter(name);
+            write.Close();
+        }
+
+        public void LoadLevel()
+        {
+            try
+            {
+                StreamReader read = new StreamReader(name);
+                read.Close();
+            }
+            catch (Exception)
+            {
+                name = "file not found";
+            }
+        }
+
+        public void CheckLevelCount()
+        {
+            levelCount = 1;
+            bool checkLevels = true;
+            while (checkLevels == true)
+            {
+                try
+                {
+                    StreamReader testRead = new StreamReader(levelCount + ".txt");
+                    testRead.Close();
+                    levelCount++;
+                }
+                catch (Exception)
+                {
+                    checkLevels = false;
+                }
+            }
+        }
+
+        public void ResetLevel()
+        {
+            for (int i = 0; i < 16; i++)
+            {
+                for (int j = 0; j < 16; j++)
+                {
+                    buttons[j, i].Thing = ".";
+                }
+            }
+        }
+    }
+}

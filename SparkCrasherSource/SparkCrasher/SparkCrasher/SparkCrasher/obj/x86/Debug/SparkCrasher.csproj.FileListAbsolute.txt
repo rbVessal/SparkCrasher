@@ -1,0 +1,407 @@
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+P:\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+P:\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+P:\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+P:\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+P:\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+P:\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+P:\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+P:\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+P:\SparkCrasher3wMoreComments\SparkCrasher3wMoreComments\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+P:\SparkCrasher3wMoreComments\SparkCrasher3wMoreComments\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+P:\SparkCrasher3wMoreComments\SparkCrasher3wMoreComments\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+P:\SparkCrasher3wMoreComments\SparkCrasher3wMoreComments\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+P:\SparkCrasher3wMoreComments\SparkCrasher3wMoreComments\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+P:\SparkCrasher3wMoreComments\SparkCrasher3wMoreComments\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+P:\SparkCrasher3wMoreComments\SparkCrasher3wMoreComments\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+P:\SparkCrasher3wMoreComments\SparkCrasher3wMoreComments\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+P:\SparkCrasher3wMoreComments\SparkCrasher3wMoreComments\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+P:\SparkCrasher3wMoreComments\SparkCrasher3wMoreComments\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+P:\SparkCrasher3wMoreComments\SparkCrasher3wMoreComments\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+P:\SparkCrasher3wMoreComments\SparkCrasher3wMoreComments\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole.xnb
+P:\SparkCrasher3wMoreComments\SparkCrasher3wMoreComments\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark.xnb
+P:\SparkCrasher3wMoreComments\SparkCrasher3wMoreComments\SparkCrasher2\SparkCrasher\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole1.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole2.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole3.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole4.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole5.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole1.5.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole2.25.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole2.75.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole3.5.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark1.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark2.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark3.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark4.xnb
+D:\SC sprites\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark5.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole1.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole2.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole3.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole4.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole5.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole1.5.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole2.25.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole2.75.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole3.5.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark1.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark2.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark3.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark4.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark5.xnb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+P:\SparkCrasher4\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole1.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole2.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole3.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole4.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole5.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole1.5.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole2.25.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole2.75.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\pole3.5.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark1.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark2.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark3.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark4.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark5.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher5\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+C:\Users\Jennifer Dziuba\Desktop\SparkCrasher\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\Jennifer Dziuba\Desktop\SparkCrasher\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+C:\Users\Jennifer Dziuba\Desktop\SparkCrasher\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+C:\Users\Jennifer Dziuba\Desktop\SparkCrasher\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+C:\Users\Jennifer Dziuba\Desktop\SparkCrasher\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+C:\Users\Jennifer Dziuba\Desktop\SparkCrasher\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+C:\Users\Jennifer Dziuba\Desktop\SparkCrasher\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark1.xnb
+C:\Users\Jennifer Dziuba\Desktop\SparkCrasher\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+C:\Users\Jennifer Dziuba\Desktop\SparkCrasher\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+C:\Users\Jennifer Dziuba\Desktop\SparkCrasher\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jennifer Dziuba\Desktop\SparkCrasher\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jennifer Dziuba\Desktop\SparkCrasher\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+C:\Users\Jennifer Dziuba\Desktop\SparkCrasher\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+C:\Users\Jennifer Dziuba\Desktop\SparkCrasher\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spritesheetPole.xnb
+G:\RIT Freshman Year\Spring Quarter Classes\GSDIII\Project\SparkCrasher MASTER EDITION\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+G:\RIT Freshman Year\Spring Quarter Classes\GSDIII\Project\SparkCrasher MASTER EDITION\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+G:\RIT Freshman Year\Spring Quarter Classes\GSDIII\Project\SparkCrasher MASTER EDITION\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+G:\RIT Freshman Year\Spring Quarter Classes\GSDIII\Project\SparkCrasher MASTER EDITION\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+G:\RIT Freshman Year\Spring Quarter Classes\GSDIII\Project\SparkCrasher MASTER EDITION\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+G:\RIT Freshman Year\Spring Quarter Classes\GSDIII\Project\SparkCrasher MASTER EDITION\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+G:\RIT Freshman Year\Spring Quarter Classes\GSDIII\Project\SparkCrasher MASTER EDITION\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark1.xnb
+G:\RIT Freshman Year\Spring Quarter Classes\GSDIII\Project\SparkCrasher MASTER EDITION\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spritesheetPole.xnb
+G:\RIT Freshman Year\Spring Quarter Classes\GSDIII\Project\SparkCrasher MASTER EDITION\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+G:\RIT Freshman Year\Spring Quarter Classes\GSDIII\Project\SparkCrasher MASTER EDITION\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+G:\RIT Freshman Year\Spring Quarter Classes\GSDIII\Project\SparkCrasher MASTER EDITION\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\RIT Freshman Year\Spring Quarter Classes\GSDIII\Project\SparkCrasher MASTER EDITION\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+G:\RIT Freshman Year\Spring Quarter Classes\GSDIII\Project\SparkCrasher MASTER EDITION\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+G:\RIT Freshman Year\Spring Quarter Classes\GSDIII\Project\SparkCrasher MASTER EDITION\SparkCrasher MASTER EDITION\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+P:\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+P:\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+P:\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+P:\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+P:\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+P:\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+P:\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark1.xnb
+P:\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spritesheetPole.xnb
+P:\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+P:\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+P:\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+P:\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+P:\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+P:\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+P:\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Collision.xnb
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher MASTER EDITION3\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher MASTER EDITION3\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher MASTER EDITION3\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher MASTER EDITION3\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher MASTER EDITION3\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher MASTER EDITION3\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher MASTER EDITION3\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark1.xnb
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher MASTER EDITION3\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spritesheetPole.xnb
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher MASTER EDITION3\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Collision.xnb
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher MASTER EDITION3\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher MASTER EDITION3\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher MASTER EDITION3\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher MASTER EDITION3\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher MASTER EDITION3\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+C:\Users\Jennifer Dziuba\Downloads\SparkCrasher MASTER EDITION3\SparkCrasher MASTER EDITION2\SparkCrasher MASTER EDITION2\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark1.xnb
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spritesheetPole.xnb
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Collision.xnb
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Pious_on.xnb
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\sparkBase.xnb
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\CollisionLong.xnb
+P:\SparkCrasher MASTER EDITION3\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\testroom.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark1.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spritesheetPole.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\testroom.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Collision.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\CollisionLong.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Pious_on.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\sparkBase.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION5\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Heart Balloon.xnb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark1.xnb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spritesheetPole.xnb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\testroom.xnb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Heart Balloon.xnb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Collision.xnb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\CollisionLong.xnb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Pious_on.xnb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\sparkBase.xnb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPpole.xnb
+P:\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION7\SparkCrasher MASTER EDITION5\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPsparky.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark1.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spritesheetPole.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\testroom.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Heart Balloon.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPpole.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPsparky.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Collision.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\CollisionLong.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Pious_on.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\sparkBase.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+C:\Users\IGMAdmin\Desktop\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark1.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spritesheetPole.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\testroom.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Heart Balloon.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPpole.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPsparky.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Collision.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\CollisionLong.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Pious_on.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\sparkBase.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\CrackedFont.xnb
+P:\SparkCrasher MASTER EDITION 9\SparkCrasher MASTER EDITION8 (1)\SparkCrasher MASTER EDITION7\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPballoon.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark1.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spritesheetPole.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\testroom.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Heart Balloon.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPpole.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPsparky.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\CrackedFont.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPballoon.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Collision.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\CollisionLong.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Pious_on.xnb
+C:\Users\IGMAdmin\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\sparkBase.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark1.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spritesheetPole.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\testroom.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Heart Balloon.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPpole.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPsparky.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\CrackedFont.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPballoon.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Collision.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\CollisionLong.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Pious_on.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\sparkBase.xnb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+D:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark1.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spritesheetPole.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\testroom.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Heart Balloon.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPpole.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPsparky.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\CrackedFont.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPballoon.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\levl7_light.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\lvl7_dark.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\room1_dark.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\room1_light.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\room2_dark.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\room2_light.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\room3_dark.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\room3_light.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\room4_dark.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\room4_light.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\tailSS.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Collision.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\CollisionLong.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Pious_on.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\sparkBase.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\sparkSS.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Alchemist.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Faster.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MTA.xnb
+J:\SparkCrasher\Milestone 4\Current edition\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Rising.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\SpriteFont1.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Test.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\title_screen.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goal.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\goalFinish.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\wall.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spark1.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\spritesheetPole.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\testroom.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Heart Balloon.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPpole.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPsparky.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\CrackedFont.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MAPballoon.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\levl7_light.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\lvl7_dark.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\room1_dark.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\room1_light.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\room2_dark.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\room2_light.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\room3_dark.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\room3_light.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\room4_dark.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\room4_light.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\tailSS.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\sparkSS.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Collision.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\CollisionLong.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Pious_on.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\sparkBase.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Alchemist.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Faster.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\MTA.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\Content\Rising.xnb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.exe
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\bin\x86\Debug\SparkCrasher.pdb
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\ResolveAssemblyReference.cache
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.exe
+\\banner.main.ad.rit.edu\students\rbv7405\IGMProfile\Desktop\SparkCrasher\SparkCrasher\SparkCrasher\obj\x86\Debug\SparkCrasher.pdb

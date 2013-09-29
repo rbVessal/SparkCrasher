@@ -1,0 +1,708 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
+using System.Threading;
+
+//@author:  Jen Dzuiba, Rebecca Vessal
+//Instructor: Professor Cascioli
+//Date: 3/18/11
+//
+//Game1.cs
+//
+//Game1.cs loads all of the levels and contains the game's finite state machine and game mechanics.
+namespace SparkCrasher
+{
+    /// <summary>
+    /// This is the main type for your game
+    /// </summary>
+    public class Game1 : Microsoft.Xna.Framework.Game
+    {
+        GraphicsDeviceManager graphics;
+        SpriteBatch spriteBatch;
+
+        SpriteFont text; // current font
+        Dictionary<string, Texture2D> images; // image dictionary
+        KeyboardState kbState; // current keyboard state
+        KeyboardState prevKBState; // previous frame's keyboard state
+
+        Character player; // player object
+        Mechanics mechanics; // mechanics - really shouldn't need to be an object
+        LevelLoader levelLoader; // loads the levels - also should not have to be an object
+        List<Poles> poles; // collection of pole objects
+        List<Wall> walls; // collection of wall objects
+        Goal goal; // goal object
+        int currentLevel; // filename of current level
+        int poleCount;
+        int sparkCount;
+
+        enum GameState
+        {
+            Level, // playing the level
+            Map, // selecting a level
+            Load, // loading that level
+            Title, // title splash
+            LevelComplete, // result screen on finishing a level
+            Pause, // in-level pause menu
+            Edit, // map editor
+        }
+        GameState gameState; // track the game's state
+
+        MapMaker mapMaker; // map editor
+
+        public Game1()
+        {
+            graphics = new GraphicsDeviceManager(this);
+            // Set the screen size
+            graphics.PreferredBackBufferWidth = Constants.SCREEN_WIDTH;
+            graphics.PreferredBackBufferHeight = Constants.SCREEN_HEIGHT;
+
+            Content.RootDirectory = "Content";
+        }
+
+        /// <summary>
+        /// Allows the game to perform any initialization it needs to before starting to run.
+        /// This is where it can query for any required services and load any non-graphic
+        /// related content.  Calling base.Initialize will enumerate through any components
+        /// and initialize them as well.
+        /// </summary>
+        protected override void Initialize()
+        {
+            // TODO: Add your initialization logic here
+
+            gameState = new GameState();
+            gameState = GameState.Title;
+            kbState = new KeyboardState();
+            prevKBState = new KeyboardState();
+            player = new Character();
+            mechanics = new Mechanics();
+            poles = new List<Poles>();
+            walls = new List<Wall>();
+            goal = new Goal();
+            images = new Dictionary<string, Texture2D>();
+            currentLevel = 1;
+            mapMaker = null;
+
+            base.Initialize();
+        }
+
+        /// <summary>
+        /// LoadContent will be called once per game and is the place to load
+        /// all of your content.
+        /// </summary>
+        protected override void LoadContent()
+        {
+            // Create a new SpriteBatch, which can be used to draw textures.
+            spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            // TODO: use this.Content to load your game content here
+            //poles for animation
+            images.Add("pole1", this.Content.Load<Texture2D>("pole1")); // pole
+            images.Add("pole2", this.Content.Load<Texture2D>("pole1.5")); // pole
+            images.Add("pole3", this.Content.Load<Texture2D>("pole2")); // pole
+            images.Add("pole4", this.Content.Load<Texture2D>("pole2.25")); // pole
+            images.Add("pole5", this.Content.Load<Texture2D>("pole2.75")); // pole
+            images.Add("pole6", this.Content.Load<Texture2D>("pole3")); // pole
+            images.Add("pole7", this.Content.Load<Texture2D>("pole3.5")); // pole
+            images.Add("pole8", this.Content.Load<Texture2D>("pole4")); // pole
+            images.Add("pole9", this.Content.Load<Texture2D>("pole5")); // pole
+
+            //sparky animation
+            images.Add("spark1", this.Content.Load<Texture2D>("spark1")); // character
+            images.Add("spark2", this.Content.Load<Texture2D>("spark2")); // character
+            images.Add("spark3", this.Content.Load<Texture2D>("spark3")); // character
+            images.Add("spark4", this.Content.Load<Texture2D>("spark4")); // character
+            images.Add("spark5", this.Content.Load<Texture2D>("spark5")); // character
+
+            images.Add("wall", this.Content.Load<Texture2D>("wall")); // wall
+            images.Add("goal", this.Content.Load<Texture2D>("goal")); // goal
+            images.Add("goalFinish", this.Content.Load<Texture2D>("goalFinish"));//touched goal
+            images.Add("title", this.Content.Load<Texture2D>("title_screen")); // title image
+
+            //font - that custom font Jen used for the example title splash
+            text = this.Content.Load<SpriteFont>("SpriteFont1"); // filler for font - Arial, size 14
+            
+            //test image
+            images.Add("test", this.Content.Load<Texture2D>("Test")); // test image
+        }
+
+        /// <summary>
+        /// UnloadContent will be called once per game and is the place to unload
+        /// all content.
+        /// </summary>
+        protected override void UnloadContent()
+        {
+            // TODO: Unload any non ContentManager content here
+        }
+
+        /// <summary>
+        /// Allows the game to run logic such as updating the world,
+        /// checking for collisions, gathering input, and playing audio.
+        /// </summary>
+        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+        protected override void Update(GameTime gameTime)
+        {
+            // Allows the game to exit
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+                this.Exit();
+
+            // TODO: Add your update logic here
+            kbState = Keyboard.GetState();
+            switch(gameState)
+            {
+                #region Case: Title
+                case GameState.Title: // title splash
+                    if (this.SingleKeyPress(Keys.Enter))
+                    {
+                        // start the game
+                        currentLevel = 1;
+                        gameState = GameState.Map;
+                    }
+                    break;
+                #endregion
+                #region Case: Map
+                case GameState.Map: // level select
+                        // NOTE: NEED TO CHANGE THE Constants.MAX_LEVEL's TO REFLECT AN UNKNOWN NUMBER OF LEVEL FILES
+                        if (this.SingleKeyPress(Keys.Enter) && (currentLevel > 0 && currentLevel <= Constants.MAX_LEVEL))
+                        {
+                            // select a level
+                            gameState = GameState.Load;
+                        }
+                        if (this.SingleKeyPress(Keys.S))
+                        {
+                            // return to the title
+                            gameState = GameState.Title;
+                        }
+                        if (this.SingleKeyPress(Keys.A) && currentLevel > 1)
+                        {
+                            // move cursor to previous level
+                            currentLevel--;
+                        }
+                        if (this.SingleKeyPress(Keys.D) && currentLevel < Constants.MAX_LEVEL)
+                        {
+                            // move cursor to next level
+                            currentLevel++;
+                        }
+                        if (this.SingleKeyPress(Keys.Space))
+                        {
+                            // switch to the map editor
+                            gameState = GameState.Edit;
+                        }
+                        break;
+                #endregion
+                #region Case: Load
+                case GameState.Load: // load selected level
+                        // make a new loader
+                        levelLoader = new LevelLoader();
+                        // load the file
+                        levelLoader.Load(currentLevel + ".txt");
+                        // set locations based on file
+                        player = levelLoader.SetStart(player);
+                        goal = levelLoader.SetFinish(goal);
+                        walls = levelLoader.SetWalls();
+                        poles = levelLoader.SetPoles();
+                        
+                        // reset player
+                        player.XSpeed = Constants.START_SPEED;
+                        player.YSpeed = Constants.START_SPEED;
+                        player.Angle = Constants.START_ANGLE;
+                        player.Charge = 0;
+
+                        // start the level
+                        gameState = GameState.Level;
+                        break;
+                #endregion
+                #region Case: Pause
+                case GameState.Pause: // pause menu
+                        if (this.SingleKeyPress(Keys.Enter))
+                        {
+                            // unpause the game
+                            gameState = GameState.Level;
+                        }
+                        if (this.SingleKeyPress(Keys.A))
+                        {
+                            // reset the level (reload)
+                            gameState = GameState.Load;
+                        }
+                        if (this.SingleKeyPress(Keys.D))
+                        {
+                            // return to the map
+                            gameState = GameState.Map;
+                        }
+                        break;
+                #endregion
+                #region Case: Level
+
+                case GameState.Level: // play the level
+                        if (this.SingleKeyPress(Keys.Enter))
+                        {
+                            // pause the level
+                            gameState = GameState.Pause;
+                        }
+
+                        else
+                        {
+                            // check if the player has completed the level
+                            if (new Rectangle(goal.X, goal.Y, Constants.TILE_WIDTH, Constants.TILE_HEIGHT).Intersects(
+                                new Rectangle(player.XPos, player.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT)))
+                            {
+                                //HM: making it pause for a second so people can see the lightbulb glow :)
+                                Thread.Sleep(1000);
+                                gameState = GameState.LevelComplete;
+                            }
+
+                            else
+                            {
+                                // find nearest pos and neg poles
+                                Poles pos = new Poles(0, 0, 0); // closest pos pole
+                                Poles neg = new Poles(0, 0, 0); // closest neg plole
+                                int dis = 0; // distance between player and current pole
+                                int pDis = 0; // distance between player and closest pos pole
+                                int nDis = 0; // distance between player and closest neg pole
+                                foreach (Poles pole in poles)
+                                {
+                                    // calculate distance between player and current pole
+                                    dis = (int)(Math.Pow((pole.XPos - player.XPos), 2) + Math.Pow((pole.YPos - player.YPos), 2));
+                                    // check if current pos and neg poles have been set
+                                    if (pos.Charge == 0 && pole.Charge == 1)
+                                    {
+                                        // set base comparision for pos pole
+                                        pos = pole;
+                                        pDis = dis;
+
+                                    }
+                                    if (neg.Charge == 0 && pole.Charge == -1)
+                                    {
+                                        // set base comparison for neg pole
+                                        neg = pole;
+                                        nDis = dis;
+                                    }
+                                    // check current pole against current pos and neg
+                                    switch (pole.Charge)
+                                    {
+                                        case 1: if (dis < pDis)
+                                            {
+                                                // set new nearest pos pole
+                                                pos = pole;
+                                                pDis = dis;
+                                                
+                                            }
+                                            break;
+                                        case -1: if (dis < nDis)
+                                            {
+                                                // set new nearest ned pole
+                                                neg = pole;
+                                                nDis = dis;
+                                                
+                                            }
+                                            break;
+                                        default: break;
+                                    }
+                                }
+
+                                // switch the player's charge
+                                if (this.SingleKeyPress(Keys.S))
+                                {
+                                    // change charge to neutral
+                                    player.Charge = 0;
+                                }
+                                if (this.SingleKeyPress(Keys.A))
+                                {
+                                    // change charge to positive
+                                    player.Charge = 1;
+                                }
+                                if (this.SingleKeyPress(Keys.D))
+                                {
+                                    // change charge to negative
+                                    player.Charge = -1;
+                                }
+
+                                // player acceleration
+                                if (player.Charge == 0)
+                                {
+                                    // neutral charge
+                                    player.YSpeed = mechanics.Gravity(player.YSpeed);
+                                }
+                                if (player.Charge == 1)
+                                {
+                                    // positive charge
+                                    player = mechanics.Attraction(neg, player);
+                                   
+                                    // stick to opposite-charge pole
+                                    if (mechanics.PoleCollision(neg, player))
+                                    {
+                                        player.XSpeed = 0;
+                                        player.YSpeed = 0;
+                                        //Call the orbit method
+                                        mechanics.Orbit(neg, player);
+                                    }
+                                }
+                                if (player.Charge == -1)
+                                {
+                                    // negative charge
+                                    player = mechanics.Attraction(pos, player);
+                                    // stick to opposite-charge pole
+                                    if (mechanics.PoleCollision(pos, player))
+                                    {
+                                        player.XSpeed = 0;
+                                        player.YSpeed = 0;
+                                        //Call the orbit method
+                                        mechanics.Orbit(pos, player);
+                                    }
+                                }
+
+                                // check if player hit any walls
+                                bool wallIsHit = false;
+                                bool checkedWall = false;
+                                foreach (Wall wall in walls)
+                                {
+                                    if (wallIsHit == false)
+                                    {
+                                        wallIsHit = mechanics.Bounce(wall, player);
+                                    }
+                                    if (wallIsHit && checkedWall == false)
+                                    {
+                                        // when they hit a wall, prevent them from moving through it
+                                        checkedWall = true;
+                                        player = mechanics.SolidWall(wall, player);
+                                    }
+                                }
+
+                                // check for max speed
+                                if (player.XSpeed > Constants.MAX_SPEED)
+                                {
+                                    player.XSpeed = Constants.MAX_SPEED;
+                                }
+                                if (player.XSpeed < -(Constants.MAX_SPEED))
+                                {
+                                    player.XSpeed = -(Constants.MAX_SPEED);
+                                }
+                                if (player.YSpeed > Constants.MAX_SPEED)
+                                {
+                                    player.YSpeed = Constants.MAX_SPEED;
+                                }
+                                if (player.YSpeed < -(Constants.MAX_SPEED))
+                                {
+                                    player.YSpeed = -(Constants.MAX_SPEED);
+                                }
+
+                                // calculate new position
+                                player.XPos += player.XSpeed;
+                                player.YPos += player.YSpeed;
+
+                                // keep the player on the screen
+                                this.BorderCollision();
+                            }
+                        }
+                        break;
+                #endregion
+                #region Case: Level Complete
+                case GameState.LevelComplete:
+                        if (SingleKeyPress(Keys.Enter))
+                        {
+                            if (currentLevel < Constants.MAX_LEVEL)
+                            { // remember to change this Constants.MAX_LEVEL also!
+                                currentLevel++;
+                            }
+                            gameState = GameState.Map;
+                        }
+                        break;
+                #endregion
+                #region Case: Edit
+                case GameState.Edit:
+                        if (this.SingleKeyPress(Keys.Escape))
+                        {
+                            // return to the map
+                            mapMaker = null;
+                            gameState = GameState.Map;
+                        }
+                        else
+                        {
+                            if (mapMaker == null)
+                            {
+                                // create a new mapMaker
+                                mapMaker = new MapMaker(images["test"], text);
+                            }
+                            else
+                            {
+                                // update the mapMaker if it exists
+                                mapMaker.Update(kbState, prevKBState);
+                            }
+                        }
+                    break;
+                #endregion
+                default: break;
+            }
+
+            // save the current keyboard state for reference next frame
+            prevKBState = kbState;
+
+            base.Update(gameTime);
+        }
+
+        /// <summary>
+        /// This is called when the game should draw itself.
+        /// </summary>
+        /// <param name="gameTime">Provides a snapshot of timing values.</param>
+        protected override void Draw(GameTime gameTime)
+        {
+            GraphicsDevice.Clear(Color.Black);
+
+            // TODO: Add your drawing code here
+            spriteBatch.Begin();
+            Window.Title = "Spark Crasher";
+            switch (gameState)
+            {
+                #region Case: Title
+                case GameState.Title: // title splash
+                    spriteBatch.Draw(images["title"], new Rectangle(0, 0, Constants.SCREEN_WIDTH, 571), Color.White);
+                    break;
+                #endregion
+                #region Case: Map
+                case GameState.Map: // level select
+                    spriteBatch.Draw(images["title"], new Rectangle(0, 0, Constants.SCREEN_WIDTH, 571), Color.White);
+                    spriteBatch.DrawString(text, "TEST - use A and D to select a level, press [ENTER] to start, or S to return to the title\n" +
+                        "Press [SPACE] to enter the map editor\n\nCurrent Level: " + currentLevel + "\n\nLevel controls:\nA - " +
+                        "change charge to positive\nS - change charge to neutral\nD - change charge to negative\n" +
+                        "Press [ENTER] in the level to pause the game", new Vector2(0, 500), Color.White);
+                    break;
+                #endregion
+                #region Case: Loading
+                case GameState.Load: // loading screen
+                    spriteBatch.DrawString(text, "LOADING", Vector2.Zero, Color.White);
+                    break;
+                #endregion
+                #region Case: Level
+                case GameState.Level: // inside the level
+                    // debug info for testing
+                    //spriteBatch.DrawString(text, "xSpeed: " + player.XSpeed + ", xPos: " + player.XPos + "\nySpeed: " + player.YSpeed + ", yPos: " + player.YPos +
+                    //    "\nscreen width: " + GraphicsDevice.Viewport.Width + ", screen height: " + GraphicsDevice.Viewport.Height, Vector2.Zero, Color.White);
+                    int gT = gameTime.TotalGameTime.Milliseconds;
+
+                    #region// draw all walls
+                    foreach (Wall wall in walls)
+                    {
+                        spriteBatch.Draw(images["wall"], new Rectangle(wall.XPos, wall.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT), Color.White);
+                    }
+                    #endregion
+
+                    #region Poles
+                    Color color = new Color();
+                    // color poles based on charge, then draw each
+                    foreach (Poles pole in poles)
+                    {
+                        switch (pole.Charge)
+                        {
+                            case 0: color = Color.White;
+                                break;
+                            case 1: color = Color.Firebrick;
+                                break;
+                            case -1: color = Color.CornflowerBlue;
+                                break;
+                        }
+
+                        poleCount = 0;
+                        poleCount += gT % 11;
+
+                        #region actual "animation"
+                        switch (poleCount)
+                        {
+                            case 1:
+                                spriteBatch.Draw(images["pole1"], new Rectangle(pole.XPos, pole.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT), color);
+                                break;
+                            case 2:
+                                spriteBatch.Draw(images["pole2"], new Rectangle(pole.XPos, pole.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT), color);
+                                break;
+                            case 3:
+                                spriteBatch.Draw(images["pole3"], new Rectangle(pole.XPos, pole.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT), color);
+                                break;
+                            case 4:
+                                spriteBatch.Draw(images["pole4"], new Rectangle(pole.XPos, pole.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT), color);
+                                break;
+                            case 5:
+                                spriteBatch.Draw(images["pole5"], new Rectangle(pole.XPos, pole.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT), color);
+                                break;
+                            case 6:
+                                spriteBatch.Draw(images["pole6"], new Rectangle(pole.XPos, pole.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT), color);
+                                break;
+                            case 7:
+                                spriteBatch.Draw(images["pole7"], new Rectangle(pole.XPos, pole.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT), color);
+                                break;
+                            case 8:
+                                spriteBatch.Draw(images["pole8"], new Rectangle(pole.XPos, pole.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT), color);
+                                break;
+                            case 9:
+                                spriteBatch.Draw(images["pole9"], new Rectangle(pole.XPos, pole.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT), color);
+                                break;
+                            case 10:
+                                spriteBatch.Draw(images["pole9"], new Rectangle(pole.XPos, pole.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT), color);
+                                break;
+                            case 0:
+                                spriteBatch.Draw(images["pole9"], new Rectangle(pole.XPos, pole.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT), color);
+                                break;
+                        }
+                        #endregion
+
+                    }
+                    #endregion
+
+                    //HM: creating the goal's rectangle so I can check for collision
+                    Rectangle goalRect = new Rectangle(goal.X, goal.Y, Constants.TILE_WIDTH, Constants.TILE_HEIGHT);
+                    // draw the goal
+                    spriteBatch.Draw(images["goal"], goalRect, Color.White);
+
+                    // color player based on charge, then draw
+                    switch (player.Charge)
+                    {
+                        case 0: color = Color.White;
+                            break;
+                        case 1: color = Color.Firebrick;
+                            break;
+                        case -1: color = Color.CornflowerBlue;
+                            break;
+                    }
+
+                    //HM: creating the player's rectangle so I can check for collision
+                    Rectangle playerRect = new Rectangle(player.XPos, player.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT);
+
+                    if (sparkCount <= 10)
+                    {
+                        spriteBatch.Draw(images["spark1"], playerRect, color);
+                    }
+
+                    if (sparkCount > 10 && sparkCount <= 20)
+                    {
+                        spriteBatch.Draw(images["spark2"], playerRect, color);
+                    }
+
+                    if (sparkCount > 20 && sparkCount <= 30)
+                    {
+                        spriteBatch.Draw(images["spark3"], playerRect, color);
+                    }
+                    if (sparkCount > 30 && sparkCount <= 40)
+                    {
+                        spriteBatch.Draw(images["spark4"], playerRect, color);
+                    }
+
+                    if (sparkCount > 40 && sparkCount <= 50)
+                    {
+                        spriteBatch.Draw(images["spark5"], playerRect, color);
+                    }
+                    if (sparkCount > 50 && sparkCount<= 60)
+                    {
+                        spriteBatch.Draw(images["spark4"], playerRect, color);
+                    }
+
+                    if (sparkCount > 60 && sparkCount <= 70)
+                    {
+                        spriteBatch.Draw(images["spark3"], playerRect, color);
+                    }
+
+                    if (sparkCount > 70 && sparkCount <= 80)
+                    {
+                        spriteBatch.Draw(images["spark2"], playerRect, color);
+                        
+                    }
+
+                    if (sparkCount == 80)
+                    {
+
+                        sparkCount = 1;
+                    }
+
+                    else
+                    {
+                        sparkCount += 1;
+                    }
+
+
+                    //HM:checking for the collision between player and goal
+                    if (goalRect.Intersects(playerRect))
+                    {
+                        spriteBatch.Draw(images["goalFinish"], goalRect, Color.White);
+                    }
+
+
+                    break;
+
+
+                #endregion
+                #region Case: Pause
+                case GameState.Pause: // pause menu
+                    spriteBatch.DrawString(text, "PAUSED\nPress [ENTER] to continue, A to reset the level, or D to exit the level",
+                        Vector2.Zero, Color.White);
+                    // also draw the stuff for gameState==GameState.Level?
+                    break;
+                #endregion
+                #region Case: Level Complete
+                case GameState.LevelComplete:
+                    //spriteBatch.Draw(images["goalFinish"], goalRect = new Rectangle(goal.X, goal.Y, Constants.TILE_WIDTH, Constants.TILE_HEIGHT), Color.White);
+                    spriteBatch.Draw(images["title"], new Rectangle(0, 0, Constants.SCREEN_WIDTH, 571), Color.White);
+                    spriteBatch.DrawString(text, "Level complete!\nPress [ENTER] to continue", new Vector2(0, 500), Color.White);
+                    break;
+                #endregion
+                #region Case: Edit
+                case GameState.Edit:
+                    if (mapMaker != null)
+                    {
+                        mapMaker.Draw(spriteBatch);
+                    }
+                    break;
+                #endregion
+                default: break;
+            }
+            spriteBatch.End();
+
+            base.Draw(gameTime);
+        }
+
+        // helper method: check for a single key press
+        public bool SingleKeyPress(Keys key)
+        {
+            if (prevKBState.IsKeyUp(key) && kbState.IsKeyDown(key))
+            {
+                prevKBState = kbState;
+                return true;
+            }
+            else { return false; }
+        }
+
+        // helper method: keep player on the screen by bouncing off the walls
+        public void BorderCollision()
+        {
+            // player moving off left of screen
+            if (player.XPos <= 0)
+            {
+                player.XPos = 0;
+                player.XSpeed = -(player.XSpeed /2);
+            }
+
+            // player moving off right of screen
+            if (player.XPos + Constants.TILE_WIDTH >= GraphicsDevice.Viewport.Width)
+            {
+                player.XPos = GraphicsDevice.Viewport.Width - Constants.TILE_WIDTH;
+                player.XSpeed = -(player.XSpeed /2);
+            }
+
+            // player moving off top of screen
+            if (player.YPos <= 0)
+            {
+                player.YPos = 0;
+                player.YSpeed = -(player.YSpeed /2);
+            }
+
+            // player moving off bottom of screen
+            if (player.YPos + Constants.TILE_HEIGHT >= GraphicsDevice.Viewport.Height)
+            {
+                player.YPos = GraphicsDevice.Viewport.Height - Constants.TILE_HEIGHT;
+                player.YSpeed = -(player.YSpeed /2);
+            }
+        }
+    }
+}

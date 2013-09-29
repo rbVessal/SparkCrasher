@@ -1,0 +1,180 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+//@author:  Jen Dzuiba
+//Instructor: Professor Cascioli
+//Date: 3/18/11
+//
+//Mechanics.cs
+//
+//Mechanics.cs represents the game mechanics
+namespace SparkCrasher
+{
+    class Mechanics
+    {
+        //accelerations ------------------------------------------------
+        public Character Attraction(Poles pole, Character player)
+        {
+            //Constants.ATTRACTION
+            //pulled towards a pole
+            if (player.Charge != 0 && pole.Charge == -(player.Charge))
+            {
+                // calculate x,y distances between player and pole
+                int xDis = pole.XPos - player.XPos + Constants.TILE_WIDTH;
+                int yDis = pole.YPos - player.YPos + Constants.TILE_HEIGHT;
+                // find third side of triangle based on calculated distances
+                double tDis = Math.Sqrt(Math.Pow(xDis, 2) + Math.Pow(yDis, 2));
+                // scale the distances based on the attraction factor
+                double scale = Constants.ATTRACTION / tDis;
+                // use scale and calculated distances to get how much the player accelerates
+                double sX = Math.Abs((scale * xDis));
+                double sY = Math.Abs((scale * yDis));
+
+                // use calulated acceleration to change player's speed
+                if (player.XPos > (pole.XPos + Constants.TILE_WIDTH))
+                {
+                    player.XSpeed -= (int)(sX);
+                }
+                if ((player.XPos + Constants.TILE_WIDTH) < pole.XPos)
+                {
+                    player.XSpeed += (int)(sX);
+                }
+                if (player.YPos > (pole.YPos + Constants.TILE_HEIGHT))
+                {
+                    player.YSpeed -= (int)(sY);
+                }
+                if ((player.YPos + Constants.TILE_HEIGHT) < pole.YPos)
+                {
+                    player.YSpeed += (int)(sY);
+                }
+            }
+
+            return player;
+        }
+
+        public void Repulsion(Poles pole, Character player)
+        {
+            //Constants.REPULSION
+            //repelled from a pole - like bounce, 'cept it also accelerates you
+            if (player.Charge != 0 && pole.Charge == player.Charge)
+            {
+
+            }
+        }
+
+        public int Gravity(int y)
+        {
+            //Constants.GRAVITY
+            //free falling downward
+            y += Constants.GRAVITY;
+            return y;
+        }
+
+        public bool Bounce(Wall wall, Character player)
+        {
+            // check if player is bouncing off a wall
+            if (new Rectangle(wall.XPos, wall.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT).Intersects(
+                new Rectangle(player.XPos, player.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT)))
+            {
+                return true;
+            }
+            else { return false; }
+        }
+
+        public Character SolidWall(Wall wall, Character player) // works with Bounce
+        {
+            // prevent player from moving through a collided wall
+            int dX = (wall.XPos - player.XPos);
+            int dY = (wall.YPos - player.YPos);
+            if (dX > dY) {
+                if (player.XPos < wall.XPos)
+                {
+                    player.XPos = (wall.XPos - Constants.TILE_WIDTH);
+                }
+                if (player.XPos > wall.XPos)
+                {
+                    player.XPos = (wall.XPos + Constants.TILE_WIDTH);
+                }
+                player.XSpeed = 0;
+                player.YSpeed = -(player.YSpeed);
+            }
+            if (dY > dX) {
+                if (player.YPos < wall.YPos)
+                {
+                    player.YPos = (wall.YPos - Constants.TILE_HEIGHT);
+                }
+                if (player.YPos > wall.YPos)
+                {
+                    player.YPos = (wall.YPos + Constants.TILE_HEIGHT);
+                }
+                player.YSpeed = 0;
+                player.XSpeed = -(player.XSpeed);
+            }
+
+            return player;
+        }
+
+        //rotation -----------------------------------------------------
+        public void Rotate()
+        {
+            //change charAngle
+        }
+
+        public void Orbit(Poles pole, Character player)
+        {
+           
+            //Pole rectangle
+            Rectangle poleRect = new Rectangle(pole.XPos, pole.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT);
+            //Player rectangle
+            Rectangle playerRect = new Rectangle(player.XPos, player.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT);
+
+            //Calculate the center points of pole and player
+            double centerOfPlayerX = playerRect.Width / 2 + playerRect.X;
+            double centerOfPlayerY = playerRect.Height / 2 + playerRect.Y;
+            double centerOfPoleX = poleRect.Width / 2 + poleRect.X;
+            double centerOfPoleY = poleRect.Height / 2 + poleRect.Y;
+
+            //Calculate the radius of the rotation
+            //Use pyrathogram theorem
+            double radiusOfRotation = Math.Sqrt((Math.Pow((centerOfPlayerX - centerOfPoleX), 2) +
+                Math.Pow((centerOfPlayerY - centerOfPoleY), 2)));
+
+            //Calculate angle
+            double angle = Math.Atan((centerOfPlayerY - centerOfPoleY) / (centerOfPlayerX - centerOfPoleX));
+            //Increment the angle over time
+            angle ++;
+            if (angle > 360)
+            {
+                angle = angle % 360;
+            }
+
+            //Calculate the attractive force between player and pole to find the new x and y coordinates for the player
+            double attractiveForceX = Math.Sin(angle) * radiusOfRotation + centerOfPoleX;
+            double attractiveForceY = Math.Cos(angle) * radiusOfRotation + centerOfPoleY;
+            //Set the new x and y coordinates of the player to the attractive force
+            player.XPos = (int)attractiveForceX;
+            player.YPos = (int)attractiveForceY;
+        }
+
+        //collision ----------------------------------------------------
+        public void WallCollision()
+        {
+            //hitting a wall, triggers Bounce
+        }
+
+        public bool PoleCollision(Poles pole, Character player)
+        {
+            // check if player is touching a pole
+            Rectangle po = new Rectangle(pole.XPos, pole.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT);
+            Rectangle pl = new Rectangle(player.XPos, player.YPos, Constants.TILE_WIDTH, Constants.TILE_HEIGHT);
+            if (po.Intersects(pl))
+            {
+                return true;
+            }
+            else { return false; }
+        }
+    }
+}
