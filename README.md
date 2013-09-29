@@ -1,0 +1,4 @@
+SparkCrasher
+============
+
+Here is a link to the demo of this game. SparkCrashers was the first game I designed and developed with a team.  In the beginning, there were group conflicts, but they were quickly resolved as we came together and discussed each issue and solved them as a group.  Also, this experience  taught us how to work with other people’s code.  Because of this, our game turned out to be one of the best games produced in our class.  Collaboration proved to be a very powerful tool in the success of this game.  We were able to teach each other different parts of the XNA API library and how to use other software for producing music and art outside of class by discussing our parts in this project. This is also the first game in which we created our own level editor so that we could easily design and implement multiple levels in our game.
